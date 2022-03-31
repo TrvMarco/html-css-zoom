@@ -77,3 +77,43 @@ header{
 .header-left, .header-right{
     width: 50%;
 }
+
+.fa-record-vinyl{
+    color: #eb534c;
+}
+
+/* ---------------
+   USERS/CAMERA
+--------------- */
+.conteiner-camera_box{
+    width: 85%;
+    padding-top: 70px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
+}
+
+.camera_box{
+    width: calc(100% / 6 - 5px);
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5px;
+    background-color: lightblue
+
+}
+
+.user-info{
+    font-size: 14px;
+    margin: 2px;
+    padding: 3px 4px;
+    background-color: rgba(55, 53, 46, 0.8);
+    border-radius: 5px;
+}
+
+.fa-microphone-slash{
+    color: #cc3c33;
+}
+
