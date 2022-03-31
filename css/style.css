@@ -12,6 +12,7 @@
 ---------- */
 body{
     color: #fff;
+    background-color: #111111;
 }
 
 /* ----------
@@ -35,6 +36,9 @@ header .btn{
 ---------- */
 header{
     padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 .meeting-info button{
@@ -47,6 +51,7 @@ header{
     display: flex;
     align-items: center;
     column-gap: 5px;
+   
 }
 
 .recording{
@@ -56,4 +61,13 @@ header{
     border-radius: 10px;
     padding: 4px;
     column-gap: 10px;
+}
+
+.header-right{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.header-left, .header-right{
+    width: 50%;
 }
