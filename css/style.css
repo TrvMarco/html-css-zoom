@@ -85,6 +85,7 @@ header{
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 5px;
+    height: calc(100vh - 50px);
 }
 
 .camera_box{
@@ -131,3 +132,4 @@ header{
 }.pic6{
     background-image: url('../img/6.jpg');
 }
+
