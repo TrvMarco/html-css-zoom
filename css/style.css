@@ -85,7 +85,8 @@ header{
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 5px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 120px);
+    overflow-y: auto;
 }
 
 .camera_box{
@@ -133,3 +134,7 @@ header{
     background-image: url('../img/6.jpg');
 }
 
+
+.footer-buttons{
+    height: 70px;
+}
