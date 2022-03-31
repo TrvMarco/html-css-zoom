@@ -117,3 +117,25 @@ header{
     color: #cc3c33;
 }
 
+.pic1{
+    background-image: url('../img/1.jpg');
+}
+.pic2{
+    background-image: url('../img/2.jpg');
+}
+.pic3{
+    background-image: url('../img/3.jpg');
+    background-position: center;
+    background-size: cover;
+}   
+.pic4{
+    background-image: url('../img/4.jpg');
+    background-position: center;
+    background-size: cover;
+}.pic5{
+    background-image: url('../img/5.jpg');
+    background-position: center;
+    background-size: cover;
+}.pic6{
+    background-image: url('../img/6.jpg');
+}
