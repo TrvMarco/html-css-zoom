@@ -7,3 +7,53 @@
     padding: 0;
 }
 
+/* ----------
+    COMMONS
+---------- */
+body{
+    color: #fff;
+}
+
+/* ----------
+    BUTTONS
+---------- */
+.btn{
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header .btn{
+    background-color: #0a0b0b;
+    color: #fff;
+}
+
+/* ----------
+   HEADER
+---------- */
+header{
+    padding: 10px;
+}
+
+.meeting-info button{
+    color: #67d669;
+    padding: 8px;
+    
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.recording{
+    display: flex;
+    align-items: center;
+    background-color: #0a0b0b;
+    border-radius: 10px;
+    padding: 4px;
+    column-gap: 10px;
+}
