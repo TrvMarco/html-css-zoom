@@ -32,6 +32,14 @@ header .btn{
     color: #fff;
 }
 
+.btn-red{
+    padding: 8px 20px;
+    font-weight: bold;
+    background-color: #a8352e;
+    color: #fff;
+    border-radius: 10px;
+}
+
 /* ----------
    HEADER
 ---------- */
@@ -95,8 +103,6 @@ header{
     display: flex;
     align-items: flex-end;
     border-radius: 5px;
-    background-color: lightblue
-
 }
 
 .user-info{
@@ -134,7 +140,36 @@ header{
     background-image: url('../img/6.jpg');
 }
 
-
+/* ---------------
+   BOTTOM ACTIONS
+--------------- */
 .footer-buttons{
+    padding: 10px 20px;
     height: 70px;
+    background-color: #1b1b1b;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    color: #a8a8a8;
+}
+
+.action-left, .action-center, .action-right{
+    display: flex;
+    column-gap: 20px;
+    
+}
+.action-box{
+    text-align: center;
+}
+
+.action-box i{
+    font-size: 25px;
+}
+
+.action-right{
+    align-items: center;
+}
+
+.green{
+    color: #67d669;
 }
